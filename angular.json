@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mon-projetJobintech-angular": {
+    "MonProtofolioZinebAngular": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/mon-projet-jobintech-angular",
+            "outputPath": "dist/MonProtofolioZinebAngular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "mon-projetJobintech-angular:build:production"
+              "browserTarget": "MonProtofolioZinebAngular:build:production"
             },
             "development": {
-              "browserTarget": "mon-projetJobintech-angular:build:development"
+              "browserTarget": "MonProtofolioZinebAngular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "mon-projetJobintech-angular:build"
+            "browserTarget": "MonProtofolioZinebAngular:build"
           }
         },
         "test": {
